@@ -5,7 +5,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     
-    launch_args = [DeclareLaunchArgument('lapNum',default_value='2')]
+    launch_args = [DeclareLaunchArgument('lapNum',default_value='3')]
 
     offboard_node = Node(
     name='px4_offboard_node',
